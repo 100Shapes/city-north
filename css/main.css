@@ -1,22 +1,33 @@
-
-
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.angledBracket:before {
+  content: "[";
+}
+.angledBracket:after {
+  content: "]";
+}
+img {
+  width: 100%;
+  height: auto;
+}
+body {
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+.container {
+  background: red;
+}
+body {
+  background: #000000;
+  color: #ffffff;
+}
+header h2:before {
+  content: "[";
+}
+header h2:after {
+  content: "]";
+}
+b:before {
+  content: "[";
+}
+b:after {
+  content: "]";
+}

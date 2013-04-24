@@ -1,0 +1,45 @@
+// VARS
+@black: #000;
+@white: #fff;
+
+// MIXINS
+.angledBracket {
+    &:before {
+        content: "[";
+    }
+    &:after {
+        content: "]";
+    }    
+}
+
+// BASE
+img {
+    width: 100%;
+    height: auto;
+}
+body {
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+
+// LAYOUTS
+.container {
+    background: red;
+}
+
+
+
+
+
+// THEMES
+body {
+    background: @black;
+    color: @white;
+}
+header h2 {
+    .angledBracket;
+}
+b {
+    .angledBracket;
+}
