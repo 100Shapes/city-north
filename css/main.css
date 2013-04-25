@@ -1,0 +1,41 @@
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+body {
+	background-color: #505050;
+	color: #f0ecd8;
+}
+
+a.btn {
+	color: #505050;
+}
+
+.container {
+	margin-top: 20%;
+}
+
+aside img.logo {
+	margin-bottom: 100px;
+   	display: block;
+}
+
+aside h3 {
+	display: inline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
