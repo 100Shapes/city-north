@@ -8,14 +8,7 @@ $(function() {
   		data: $("#form1").serialize(),  
   		success: function(data, textStatus, jqXHR) {  
     		console.log(data, textStatus, jqXHR);
-<<<<<<< HEAD
-		},
-		error: function(jqXHR, textStatus, errorMessage) {
-           console.log(jqXHR.getAllResponseHeaders(), textStatus, errorMessage); // Optional
-        }
-	});
-	window.location.href="thanks.html";
-=======
+
         window.location.href="thanks.html";
 		},
 		error: function(jqXHR, textStatus, errorMessage) {
@@ -23,8 +16,7 @@ $(function() {
            window.location.href="thanks.html";
         }
 	});
-	//window.location.href="thanks.html";
->>>>>>> gh-pages
+
 	return false;
   });  
 });
