@@ -93,6 +93,32 @@ input.gold, textarea.gold {
 	margin-bottom: 4px;
 }
 
+.form-horizontal .control-label {
+	float: left;
+	width: 120px;
+	padding-top: 5px;
+	text-align: left;
+}
+
+.form-horizontal .controls {
+	margin-left: 120px;
+}
+
+.end {
+	text-align: right;
+	margin-right: 40px;
+}
+
+.end .interest_btn {
+	margin: 0;
+}
+
+.end img {
+
+	height: 30px;
+	padding-left: 20px;
+}
+
 #Field8 {
 	background-position: -110px;
 }
