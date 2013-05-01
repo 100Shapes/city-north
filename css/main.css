@@ -44,6 +44,11 @@ body {
 	font-size: 15px;
 }
 
+h2 {
+	font-size: 190%;
+	margin-top: 30px;
+}
+
 .container {
 	margin-top: 10%;
 }
@@ -54,6 +59,7 @@ aside img {
 		margin: auto;
 		margin-bottom: 83px;
 	   	display: block;
+	   	max-width: 83%;
 	}
 
 @media (max-width: 767px) {
@@ -76,12 +82,13 @@ p.lead {
 .small {
 	font-size: 70%;
 	font-weight: 200;
-	margin-top: 15px;
+	margin-top: 5px;
+	margin-bottom: 5px;
 }
 
 
 .main img.bdc {
-	max-width: 40px;
+	max-height: 25px;
 	margin: 5px;
 }
 
