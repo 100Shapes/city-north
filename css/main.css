@@ -98,13 +98,13 @@ p.lead {
 
 
 .main img.bdc {
-	max-height: 25px;
+	max-height: 37.5px;
 	margin: 5px;
 }
 
 .main img.united {
-	max-width: 60px;
-	margin-left: 20px;
+	max-width: 90px;
+	margin-left: 0px;
 }
 
 input.gold, textarea.gold {
@@ -118,6 +118,10 @@ input.gold, textarea.gold {
 
 .footer{
 	margin: 50px 0;
+}
+
+.footer span{
+	white-space: nowrap;
 }
 
 .form-horizontal{
@@ -147,7 +151,6 @@ input.gold, textarea.gold {
 }
 
 #saveForm {
-	margin-top: 0;
 	margin-right: 100px;
 }
 
