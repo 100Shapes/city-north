@@ -121,7 +121,7 @@ input.gold, textarea.gold {
 }
 
 .form-horizontal{
-	width: 350px;
+	width: 400px;
 	margin: auto;
 }
 
@@ -148,6 +148,7 @@ input.gold, textarea.gold {
 
 #saveForm {
 	margin-top: 0;
+	margin-right: 100px;
 }
 
 .end img {
@@ -193,6 +194,10 @@ h2 {
 	font-family: bell;
 }
 
+.thanks {
+	margin-top: -5px;
+}
+
 .outro {
 	margin-bottom: 20px;
 }
@@ -204,8 +209,11 @@ h2 {
 	color: #505050;
 	padding: 5px 20px;
 	margin-right: 50px;
-	margin-top: 20px;
 	border: none;
+}
+
+.last {
+	margin-top: 20px;
 }
 
 a:hover {
