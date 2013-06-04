@@ -1,6 +1,6 @@
 
 $(function() {  
-  $(".submit-residential").click(function(e) {
+  $(".form-commercial").submit(function(e) {
   	console.log("trying...");
     $.ajax({  
   		type: "POST",  
@@ -20,7 +20,7 @@ $(function() {
 	return false;
   });  
 
-  $(".submit-commercial").click(function(e) {
+  $(".form-commercial").submit(function(e) {
     console.log("trying...");
     $.ajax({  
       type: "POST",  
