@@ -98,13 +98,14 @@ p.lead {
 
 
 .main img.bdc {
-	max-height: 37.5px;
-	margin: 5px;
+	max-height: 55.5px;
+	margin: 8px;
+	margin-top: 40px;
 }
 
 .main img.united {
 	max-width: 90px;
-	margin-left: 0px;
+	margin-top: 10px;
 }
 
 input.gold, textarea.gold {
@@ -117,7 +118,7 @@ input.gold, textarea.gold {
 }
 
 .footer{
-	margin: 50px 0;
+	margin: 20px 0;
 }
 
 .footer span{
