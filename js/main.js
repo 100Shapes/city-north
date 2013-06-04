@@ -1,6 +1,6 @@
 
 $(function() {  
-  $(".form-resdential").submit(function(e) {
+  $(".form-residential").submit(function(e) {
   	console.log("trying...");
     if (($('#Field8').val().length>0)&&($('#Field4').val().length>0)&&($('#Field9').val().length>0)){
       console.log ('good');
