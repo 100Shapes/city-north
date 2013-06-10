@@ -59,7 +59,7 @@ aside img {
 		margin: auto;
 		margin-bottom: 83px;
 	   	display: block;
-	   	max-height: 280px;
+	   	max-height: 267px;
 	}
 
 @media (max-width: 767px) {
@@ -85,9 +85,8 @@ h1.ie8 {
 
 p.lead {
 	margin-bottom: 0px;
-	font-size: 20px;
+	font-size: 19px;
 	font-weight: lighter;
-	line-height: 28px;
 }
 
 .small {
