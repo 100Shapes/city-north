@@ -59,7 +59,7 @@ aside img {
 		margin: auto;
 		margin-bottom: 83px;
 	   	display: block;
-	   	max-height: 266px;
+	   	max-height: 280px;
 	}
 
 @media (max-width: 767px) {
@@ -87,6 +87,7 @@ p.lead {
 	margin-bottom: 0px;
 	font-size: 20px;
 	font-weight: lighter;
+	line-height: 28px;
 }
 
 .small {
