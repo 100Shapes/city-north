@@ -240,7 +240,8 @@ a:hover {
     color: white;
     text-align:center;
     font-size:2em;
-    line-height: 70px;  
+    line-height: 70px;
+    cursor:pointer;  
 }
 
 #slidecaption {
