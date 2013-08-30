@@ -234,22 +234,22 @@ a:hover {
 #prevslide, #nextslide {
     background: rgb(66,69,72);
     display: inline-block;
-    width: 80px;
-    height: 80px;
+    width: 65px;
+    height: 65px;
     text-decoration: none;
     color: white;
     text-align:center;
     font-size:2em;
-    line-height: 70px;
+    line-height: 60px;
     cursor:pointer;  
 }
 
 #slidecaption {
-    line-height: 80px;  
+    line-height: 65px;  
     display: inline-block;
     background: rgb(237,232,207);
     color: rgb(83,83,83);
-    height: 80px;
-    padding-left: 30px;
-    padding-right: 30px;
+    height: 65px;
+    padding-left: 25px;
+    padding-right: 25px;
 }
