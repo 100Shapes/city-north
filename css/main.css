@@ -61,3 +61,24 @@ section > h2 {
   -moz-border-radius: 0;
   border-radius: 0;
 }
+#prevslide,
+#nextslide {
+  background: #424548;
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  font-size: 2em;
+  line-height: 70px;
+}
+#slidecaption {
+  line-height: 80px;
+  display: inline-block;
+  background: #ede8cf;
+  color: #535353;
+  height: 80px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
