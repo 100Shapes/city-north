@@ -258,3 +258,10 @@ a:hover {
 	max-width: none;
 }
 
+@media (max-width: 800px) {
+	#slidecaption {
+		float: left;
+		margin-top: 4px;
+	}
+}
+
