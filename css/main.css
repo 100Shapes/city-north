@@ -211,9 +211,11 @@ h2 {
 	background-image:url('../img/button.png');
 	background-size: 100% 100%;
 	color: #505050;
-	padding: 5px 20px;
+	padding: 5px 0;
 	margin-right: 50px;
 	border: none;
+	width: 140px;
+	text-align: center;
 }
 
 .last {
