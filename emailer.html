@@ -152,21 +152,35 @@
 				    placeholder: "APARTMENT TYPE",
 				    width: '220px',
 				    minimumResultsForSearch: -1
+				}).one('select2-focus', select2Focus).on("select2-blur", function () {
+    				$(this).one('select2-focus', select2Focus)
 				});
+
 				$("#Field11").select2({
 				    placeholder: "PRICE RANGE",
 				    width: '220px',
 				    minimumResultsForSearch: -1
+				}).one('select2-focus', select2Focus).on("select2-blur", function () {
+   					$(this).one('select2-focus', select2Focus)
 				});
+				
 				$("#Field12").select2({
 				    placeholder: "REASON FOR PURCHASE",
 				    width: '220px',
 				    minimumResultsForSearch: -1
+				}).one('select2-focus', select2Focus).on("select2-blur", function () {
+    				$(this).one('select2-focus', select2Focus)
 				});
-
-
 	        });
 
+			function select2Focus() {
+			    var select2 = $(this).data('select2');
+			    setTimeout(function() {
+			        if (!select2.opened()) {
+			            select2.open();
+			        }
+			    }, 0);  
+			}
 
 
 
