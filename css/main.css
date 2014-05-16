@@ -153,7 +153,7 @@ input.gold, textarea.gold {
 }
 
 .form-horizontal .controls {
-	/*margin-left: 130px;*/
+	margin-left: 160px;
 }
 
 #saveForm {
@@ -168,6 +168,12 @@ input.gold, textarea.gold {
 
 .logos {
 	margin-top: -92px
+}
+
+@media (max-width: 800px) {
+	.logos {
+		margin-top: 10px
+	}
 }
 
 .logo {
