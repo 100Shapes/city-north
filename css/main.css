@@ -319,7 +319,8 @@ input {
 	font-family: 'din' !important;
 	margin: 0 !important;
 	padding: 2px 6px !important;
-	filter: none;
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(enabled = false)" !important;
+	filter: none !important;
 }
 
 .select2-choice:focus { 
@@ -352,7 +353,8 @@ input {
 	border: none !important;
 	background: none !important;
 	background-color: #F5DEB3;
-	filter:none;
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(enabled = false)" !important;
+	filter: none !important;
 }
 
 .submit-emailer {
