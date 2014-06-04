@@ -62,14 +62,28 @@ h2 {
 /*=============Side bar=====================*/
 
 aside img {
+	display: block;
+	margin: auto;
+}
+
+aside {
+	color: #CBBCA0;
+	line-height: 1.4;
+}
+
+aside a {
+	color: #F4EFDF;
+}
+
+.main-logo {
 		margin: auto;
-		margin-bottom: 83px;
+		margin-bottom: 50px;
 	   	display: block;
 	   	max-height: 267px;
 	}
 
 @media (max-width: 767px) {
-	aside img {
+	.main-logo {
 		margin-bottom: 20px;
 		max-width: 300px;
 	}
@@ -240,6 +254,14 @@ h2 {
 
 .thanks {
 	margin-top: -5px;
+}
+
+.intro {
+	color: #CBBCA0;
+	font-size: 120%;
+	font-weight: bold;
+	margin: 25px 0;
+	line-height: 1.2;
 }
 
 .outro {
