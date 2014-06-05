@@ -61,17 +61,17 @@ h2 {
 
 /*=============Side bar=====================*/
 
-aside img {
+.extra img {
 	display: block;
 	margin: auto;
 }
 
-aside {
+.extra {
 	color: #CBBCA0;
 	line-height: 1.4;
 }
 
-aside a {
+.extra a {
 	color: #F4EFDF;
 }
 
@@ -86,6 +86,25 @@ aside a {
 	.main-logo {
 		margin-bottom: 20px;
 		max-width: 300px;
+	}
+}
+
+.extra.normal {
+	display: none;
+}
+
+@media (max-width: 767px) {
+
+	.main-logo {
+		margin-bottom: 40px;
+	}
+
+	.extra.normal {
+		display: block;
+	}
+
+	aside .extra {
+		display: none;
 	}
 }
 
@@ -184,6 +203,10 @@ input.gold, textarea.gold {
 	height: 30px;
 	margin-right: 20px;
 	margin-top: 20px;
+}
+
+.event-map {
+	max-height: 500px;
 }
 
 .logos {
