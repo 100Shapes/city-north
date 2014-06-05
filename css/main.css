@@ -206,7 +206,11 @@ input.gold, textarea.gold {
 }
 
 .event-map {
-	max-height: 500px;
+	max-height: 400px;	
+}
+
+aside .event-map {
+	max-height: 340px;
 }
 
 .logos {
